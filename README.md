@@ -97,3 +97,30 @@ Logistic Regression achieved the best overall performance and was selected for d
 
 Suyash Ketkar
 Python Developer & Machine Learning Enthusiast
+
+
+Customer_Churn_Prediction/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
+├── data/
+│   └── churn.csv
+│
+├── models/
+│   ├── churn_model.pkl
+│   ├── scaler.pkl
+│   └── columns.pkl
+│
+├── src/
+│   ├── churn.py
+│   ├── eda.py
+│   ├── preprocessing.py
+│   ├── model.py
+│   └── predict.py
+│
+├── templates/
+│   └── index.html
+│
+└── static/
